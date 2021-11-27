@@ -1,8 +1,21 @@
-body{
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+  body{
   margin:20px;
   background-color:#E3F2FD ;
 }
 h1 h2{
   font-size:36px;
   
+}
+.navbar{
+  position:sticky;
+  top:0;
 }
